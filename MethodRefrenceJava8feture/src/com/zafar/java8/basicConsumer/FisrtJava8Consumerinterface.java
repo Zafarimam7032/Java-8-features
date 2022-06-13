@@ -28,7 +28,7 @@ public class FisrtJava8Consumerinterface {
 	public static void main(String[] args) {
 		allStudents = StudentDataBase.getAllStudents();
 
-		Consumer consumer = (args)->System.out.println("this is fist consumer");
+		Consumer consumer = (name)->System.out.println("this is fist consumer");
 
 		consumer.accept(args);
 		Consumer consumer2 = arg0 -> {
